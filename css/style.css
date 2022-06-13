@@ -1502,9 +1502,14 @@ a:hover {
 ======================================*/
 
 .section-footer {
+  background: url('../img/footer2.png');
   padding-top: 60px;
   margin-top: 60px;
-  background: #f3f3f3;
+  
+}
+.container{
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
 }
 
 .section-footer ul {
@@ -1522,7 +1527,7 @@ a:hover {
 }
 
 footer {
-  background: #f3f3f3;
+  background:url('../img/footer.png');
   text-align: center;
   padding: 30px 0;
 }
@@ -2081,7 +2086,7 @@ footer .credits {
 
 .topbarsectin{
   display: flex;
-  min-height: 70vh;
+  min-height: 40vh;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -2179,6 +2184,12 @@ font-size: 1.5rem;
 
 .form-group input,.form-group select{
   padding-left: 2rem;
+}
+.watsapp{
+  margin-left: 2rem;
+  background-color: #26a356;
+  color: #f1f1f1;
+  font-size: 1rem;
 }
 @media (max-width: 991px ) {
   .searchbutton{
