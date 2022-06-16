@@ -1527,7 +1527,7 @@ a:hover {
 }
 
 footer {
-  background:url('../img/footer.png');
+  background:url('../img/footer2.png');
   text-align: center;
   padding: 30px 0;
 }
@@ -1602,7 +1602,9 @@ footer .credits {
   box-shadow: none;
   border-color: #9d251f;
 }
-
+.mt-6{
+  margin-top: 6.5rem;
+}
 /*======================================
 //--//-->   BUTTON
 ======================================*/
